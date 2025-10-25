@@ -1,0 +1,7 @@
+Metric,Description,Baseline (Before Defense),After Defense Framework
+"Statistical Parity Difference (SPD)","Measures difference in positive prediction rates between protected & reference groups",-0.17,-0.08
+"Equalized Odds Difference (EOD)","Average absolute difference of TPR/FPR between groups",0.21,0.09
+"Model AUC","Overall model discrimination capability",0.88,0.87
+"Fairness Drift Rate (per 1000 predictions)","Count of drift alerts triggered by fairness monitor",18,3
+"Recovery Time (MTTR) after anomaly","Time (in minutes) for automatic rollback and retraining","12 min","4 min"
+"Provenance Integrity Score (signed artifacts %)","Share of artifacts cryptographically verified","72%","100%"
